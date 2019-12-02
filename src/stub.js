@@ -1,5 +1,5 @@
 export const func = (message) => {
-  console.log('hello!');
+  console.log('Hello!');
   console.log(`>>>${message}<<<`);
-  console.log('bye');
+  console.log('Bye');
 }
