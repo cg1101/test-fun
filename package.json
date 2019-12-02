@@ -1,0 +1,32 @@
+{
+  "name": "test-fun",
+  "version": "0.0.0",
+  "description": "a toy project to try out varies ideas",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://cg1101@github.com/cg1101/test-fun.git"
+  },
+  "author": "CHENG, Gang <cg1101@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cg1101/test-fun/issues"
+  },
+  "homepage": "https://github.com/cg1101/test-fun#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "commitizen": "^4.0.3",
+    "cz-conventional-changelog": "^3.0.2",
+    "mocha": "^6.2.2",
+    "semantic-release": "^15.13.31",
+    "sinon": "^7.5.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
