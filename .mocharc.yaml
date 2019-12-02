@@ -1,0 +1,55 @@
+# Rules & Behavior
+# allow-uncaught: false # allow uncaught errors to propagate
+# async-only: false     # require all tests to use callback (async) or return a promise
+# check-leaks: false    # check for global variable leaks
+# delay: false          # delay initial execution of root suite
+# exit: false           # force mocha quit afetr tests complete
+bail: true            # abort ("bail") after first test failure
+# forbid-only: false    # fail if exclusive test(s) encountered
+# forbid-pending: false # fail if pending test(s) encountered
+# global: []            # list of allowed global variables
+# retries: 1            # Retry failed tests this many times
+# slow: 75              # specify slow test threshold
+# timeout: 2000         # specify test timeout threshold (in milliseconds)
+#                       # same as "no-timeout: true" or "timeout: 0"
+# ui: bdd               # specify user interface
+
+# Reporting & Output
+# color: true           # force-enable color output
+# diff: true            # show diff on failure
+#                       # could be expressed as "no-exit: true"
+full-trace: true      # display full stack traces
+# growl: false          # enable Growl notifications
+# inline-diffs: false   # inline within each string
+reporter: dot         # specify reporter to use [default: "spec"]
+# reporter-option: []   # reporter specific options
+
+# Configuration
+# config:               # path to config file
+# opts:                 # path to `mocha.opts`
+# package:              # path to package.json for config
+
+# File Handling
+# ignore:               # Ignore file(s) or glob pattern(s)
+#   - /path/to/some/ignored/file
+extension:            # file extension(s) to load and/or watch
+  - js
+# file: []              # specify file(s) to be loaded prior to root suite execution
+recursive: true       # Look for tests in subdirectories
+# require: []           # require module
+# sort: false           # sort test files
+# watch: false          # watch files in the current working directory
+
+# Test Filters
+# fgrep: something      # only run tests containing this string
+# grep: something       # only run tests matching this string or regexp
+                      # fgrep and grep are mutually exclusive
+# needs to be used with grep or fgrep
+# invert: false
+
+# Positional Arguments
+spec: src/**/*.spec.js # the positional arguments!
+
+# Misc
+# trace-warnings: true # node flags ok
+# v8-stack-trace-limit: 100 # V8 flags are prepended with "v8-"
