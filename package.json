@@ -18,7 +18,7 @@
   "homepage": "https://github.com/cg1101/test-fun#readme",
   "devDependencies": {
     "chai": "^4.3.4",
-    "commitizen": "^4.0.3",
+    "commitizen": "^4.2.3",
     "cz-conventional-changelog": "^3.3.0",
     "mocha": "^8.3.2",
     "semantic-release": "^17.2.3",
